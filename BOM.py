@@ -28,6 +28,3 @@ for root, dirs, files in os.walk(filePathSrc):
           addUTF8Bom(filePathSrc + '\\' + fn)
           print(filePathSrc + '\\' + fn + ' converted to UTF with BOM')
 raw_input("done. press any key to continue... all converted files should be listed above. if none were listed, check spelling of source directroy and that they are CSV")
-
-        
-
